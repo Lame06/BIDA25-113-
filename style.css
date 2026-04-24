@@ -67,6 +67,107 @@
     margin-left:200px;
     
 }
- 
+ .about{
+    height: 80px;
+    width: 100%;
+    border: 4px;
+    background-color:khaki;
 
+}
+.about h1{
+    font-family:fantasy;
+    text-align: center;
+    padding:60px;
+    
 
+}
+.about h2{
+    font-family:fantasy ;
+    text-align: left;
+    padding: 20px;;
+}
+.about content{
+    height:150px;
+    width:100%;
+    background-color:black;
+
+}
+table{
+      width:50%;
+      border-collapse:collapse;
+      margin:15px;
+      font-family:geneva;
+      
+   }
+
+   th{
+      background-color: darkgoldenrod;
+      color:black;
+      text-align: left;
+      padding: 10px;
+      
+   }
+    
+   tr{
+      background-color:white;
+   }
+   form{
+         
+          border-radius: 5px;
+          background-color:darkgoldenrod;
+          padding:10px;
+          margin-top: 25px;
+          width: 50%;
+          
+}
+
+label {display:block;}
+
+input[type=text], select {
+  width:40%;
+  padding:10px;
+  margin: 6px ;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius:5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color:black;
+  color:white;
+  padding: 10px;
+  margin: 6px;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:black;
+}
+.get in touch{
+    background-color: khaki;
+    height:50px;
+    width:100%;
+}
+footer {
+
+   background-color:black;
+
+   color:white;
+
+   text-align:right;
+
+   padding: 20px;
+
+   position:end;
+
+   width: 100%;
+
+   font-family: fantasy;
+}
+body{
+    background-color: khaki;
+}
