@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:black;
+    background:skyblue;
     height:70px;
     width:100%;
 }
@@ -30,7 +30,7 @@
 }
 .logo p{
     font-family:fantasy;
-    color: white;
+    color:black;
     margin-top:20px;
 }
  
@@ -38,7 +38,7 @@
 
 .navbar ul{
     
-    color: white;
+    color: black;
     display: flex;
     gap: 50px;
     margin-right:300px;
@@ -49,14 +49,14 @@
 }
 .navbar a {
     text-decoration: none;
-    color: white;
+    color:black;
     font-family: fantasy;
     font-size: medium;
     font-style:bold;
 }
 .navbar a:hover{
     cursor: pointer;
-    color: khaki;
+    color:white;
 }
 .div .slide1{
     padding: 50px;
@@ -67,13 +67,8 @@
     margin-left:200px;
     
 }
- .about{
-    height: 80px;
-    width: 100%;
-    border: 4px;
-    background-color:khaki;
 
-}
+
 .about h1{
     font-family:fantasy;
     text-align: center;
@@ -111,26 +106,39 @@ table{
    tr{
       background-color:white;
    }
-   form{
-         
-          border-radius: 5px;
-          background-color:darkgoldenrod;
-          padding:10px;
-          margin-top: 25px;
-          width: 50%;
+   .contact{
+    background-image:url(../../Downloads/form.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 25px;
+    width: 50%;
+    border-radius:15px;
+    margin-left:350px;
           
 }
+.contact label{
+    display: block;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
 
-label {display:block;}
+
+}
+.contact p{
+    color:white;
+}
 
 input[type=text], select {
   width:40%;
   padding:10px;
-  margin: 6px ;
+  margin:10px;
   display: inline-block;
   border: 1px solid ;
   border-radius:5px;
   box-sizing: border-box;
+  
 }
 
 input[type=submit] {
@@ -142,15 +150,38 @@ input[type=submit] {
   border: none;
   border-radius:5px;
   cursor: pointer;
+
+}
+.contact button{
+    background-color: black;
+    color: white;
+    box-shadow: cyan;
+    margin-left:300px;
+    margin-top:5px;
+    border-radius:5px;
+    height:30px;
+    width:80px;
+    color:white;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-input[type=submit]:hover {
-  background-color:black;
+.contact button:hover{
+    background: rgb(31, 202, 62);
+    color: black;
 }
-.get in touch{
-    background-color: khaki;
-    height:50px;
+.get {
+    background-color:inherit;
+    height:80px;
     width:100%;
+}
+.get h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px ;
+    color: white;
+    text-align: center;
+    margin-top:25px;
 }
 footer {
 
@@ -169,5 +200,173 @@ footer {
    font-family: fantasy;
 }
 body{
-    background-color: khaki;
+    background-color:rgba(7, 7, 68, 0.842);
 }
+
+ .facebook {
+    width: 50px;
+    height:50px;
+    background-color: skyblue;
+    border-radius:60px;
+    display: flex;
+    margin-top: 20px;
+    
+    
+
+}
+ .facebook facebook logo{
+    width:50px;
+    height:50px;
+    border-radius:60px;
+    display: flex;
+    
+ }
+ .facebook p {
+    font-family:fantasy;
+    display:flex;
+    margin-left:10px;
+    
+
+ }
+  .g-mail{
+    width: 50px;
+    height: 50px;
+    border-radius:60px;
+    display: flex;
+    margin-top:30px;
+    
+
+
+ }
+ .g-mail g mail icon{
+    width:45px;
+    height: 45px;
+    border-radius:60px;
+    display: flex;
+    
+ }
+ .g-mail p{
+    font-family: fantasy;
+    display: flex;
+    margin-left:10px;
+
+ }
+ .phone icon{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    display: flex;
+    margin-top:30px;
+    
+ }
+   .phone icon contact{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    display: flex;
+    
+    }
+
+    .phone p{
+        font-family: fantasy;
+        display: flex;
+    }
+    .whatsapp{
+    width:50px;
+    height:50px;
+    border-radius:60px;
+    display: flex;
+    margin-top:30px;
+    
+
+    }
+    .whatsapp app logo{
+    width:45px;
+    height: 45px;
+    border-radius:60px;
+    display: flex;
+   
+
+    } 
+    .whatsapp p{
+         font-family: fantasy;
+        display: flex;
+        margin-left: 10px;
+        
+    }
+    .background{
+        height: 100px;
+        width:100%;
+    }
+    .recall {
+        height:70px;
+        width:70px;
+        background-color:darkgoldenrod;
+        margin-top:40px;
+    }
+    .recall active recall{
+        width:70px;
+        height:70px;
+        margin: auto;
+        margin-top: 40px;
+       
+    }
+    .technique {
+         height:70px;
+        width:70px;
+        background-color:darkgoldenrod;
+        margin-left:900px;
+    } 
+    .technique pomodoro{
+         width:70px;
+        height:70px;
+        margin: auto;
+        margin-left:900px;   
+
+    }
+    .objectives{
+        display: flex;
+        flex: 1 1 auto;
+        gap:80px;
+        height:200px;
+        align-items: center;
+        margin:80px;
+        justify-content: center;
+
+    }
+    .goals{
+        height:200px;
+        width:200px;
+        background-color:skyblue;
+        
+        
+    }
+
+    .goals h3{
+        font-family:fantasy;
+        color:black;
+        margin-left:40px;
+    }
+    .goals p{
+        margin-top:20px;
+        font-family:fantasy;
+        color: black;
+    }
+    .background {
+        background-color:transparent;
+    }
+    .registration{
+        background-color:inherit;
+       
+    }
+    .registration p{
+        color: white;
+    }
+
+    
+        
+    
+   
+    
+
+ 
