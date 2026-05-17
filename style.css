@@ -58,6 +58,42 @@
     cursor: pointer;
     color:white;
 }
+.welcome{
+    height:300px;
+    width:100%;
+    background-image:url(../../Downloads/education.jpg)
+}
+
+.welcome h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:white;
+    margin-top:20px;
+}
+.welcome h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: x-large;
+}
+.welcome button{
+    background-color:rgb(24, 35, 152);
+    color:black;
+    margin-left:660px;
+    margin-top:40px;
+    border-radius:10px;
+    height:60px;
+    width:150px;
+    color:white;
+    font-size:large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.welcome button:hover{
+    background: rgb(31, 202, 62);
+    color: black;
+}
+
 .div .slide1{
     padding: 50px;
     position: relative;
@@ -87,25 +123,34 @@
     background-color:black;
 
 }
-table{
-      width:50%;
-      border-collapse:collapse;
-      margin:15px;
-      font-family:geneva;
-      
-   }
+ h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align:left;
+    margin-top:30px;
+ }
 
-   th{
-      background-color: darkgoldenrod;
-      color:black;
-      text-align: left;
-      padding: 10px;
-      
-   }
-    
-   tr{
-      background-color:white;
-   }
+ .illustration{
+    height:300px;
+    width:100%;
+    display: flex;
+    gap:40px;
+    margin-top:50px;
+ }
+ .illustration img{
+    height:300px;
+    width:50%;
+    border-radius:30px;
+    border:2px;
+    border-color:white;
+ }
+
+ .illustration p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: large;
+    margin-top:80px;
+ }
    .contact{
     background-image:url(../../Downloads/form.jpg);
     background-size: cover;
@@ -155,7 +200,6 @@ input[type=submit] {
 .contact button{
     background-color: black;
     color: white;
-    box-shadow: cyan;
     margin-left:300px;
     margin-top:5px;
     border-radius:5px;
@@ -171,6 +215,55 @@ input[type=submit] {
     background: rgb(31, 202, 62);
     color: black;
 }
+.social-platforms{
+    max-width:1000px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:100%;
+    margin-bottom:50px;
+    margin:20px;
+}
+.socials{
+    padding-bottom:30px;
+    border-bottom:1px;
+}
+.socials-name{
+    border-bottom:none;
+    display: flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+.socials-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color:white;
+}
+.socials-logo{
+    width:40px;
+    border-radius:70px;
+    height:40px;
+    object-fit: contain;
+
+}
+.socials p{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    padding-left:55px ;
+}
+.platform{
+    background-color:inherit;
+}
+
+.platform p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:white;
+font-size: larger;
+text-align: left;
+margin-top:20px;
+}
 .get {
     background-color:inherit;
     height:80px;
@@ -185,154 +278,42 @@ input[type=submit] {
 }
 footer {
 
-   background-color:black;
+   background-color:skyblue;
 
-   color:white;
+   color:black;
 
-   text-align:right;
+   text-align:center;
 
-   padding: 20px;
+   padding:20px;
 
    position:end;
 
    width: 100%;
 
    font-family: fantasy;
+   
 }
 body{
-    background-color:rgba(7, 7, 68, 0.842);
+     background-color:rgba(7, 7, 68, 0.842);
 }
 
- .facebook {
-    width: 50px;
-    height:50px;
-    background-color: skyblue;
-    border-radius:60px;
-    display: flex;
-    margin-top: 20px;
-    
-    
 
-}
- .facebook facebook logo{
-    width:50px;
-    height:50px;
-    border-radius:60px;
-    display: flex;
-    
- }
- .facebook p {
-    font-family:fantasy;
-    display:flex;
-    margin-left:10px;
-    
-
- }
-  .g-mail{
-    width: 50px;
-    height: 50px;
-    border-radius:60px;
-    display: flex;
-    margin-top:30px;
-    
-
-
- }
- .g-mail g mail icon{
-    width:45px;
-    height: 45px;
-    border-radius:60px;
-    display: flex;
-    
- }
- .g-mail p{
-    font-family: fantasy;
-    display: flex;
-    margin-left:10px;
-
- }
- .phone icon{
-    width:50px;
-    height:50px;
-    border-radius:50px;
-    display: flex;
-    margin-top:30px;
-    
- }
-   .phone icon contact{
-    width:50px;
-    height:50px;
-    border-radius:50px;
-    display: flex;
-    
-    }
-
-    .phone p{
-        font-family: fantasy;
-        display: flex;
-    }
-    .whatsapp{
-    width:50px;
-    height:50px;
-    border-radius:60px;
-    display: flex;
-    margin-top:30px;
-    
-
-    }
-    .whatsapp app logo{
-    width:45px;
-    height: 45px;
-    border-radius:60px;
-    display: flex;
-   
-
-    } 
-    .whatsapp p{
-         font-family: fantasy;
-        display: flex;
-        margin-left: 10px;
-        
-    }
     .background{
         height: 100px;
         width:100%;
     }
-    .recall {
-        height:70px;
-        width:70px;
-        background-color:darkgoldenrod;
-        margin-top:40px;
-    }
-    .recall active recall{
-        width:70px;
-        height:70px;
-        margin: auto;
-        margin-top: 40px;
-       
-    }
-    .technique {
-         height:70px;
-        width:70px;
-        background-color:darkgoldenrod;
-        margin-left:900px;
-    } 
-    .technique pomodoro{
-         width:70px;
-        height:70px;
-        margin: auto;
-        margin-left:900px;   
-
-    }
+   
+    
     .objectives{
         display: flex;
-        flex: 1 1 auto;
+        flex: auto;
         gap:80px;
         height:200px;
         align-items: center;
-        margin:80px;
+        margin:200px;
         justify-content: center;
-
+        
+        
     }
     .goals{
         height:200px;
@@ -345,7 +326,7 @@ body{
     .goals h3{
         font-family:fantasy;
         color:black;
-        margin-left:40px;
+       text-align: center;
     }
     .goals p{
         margin-top:20px;
@@ -354,6 +335,7 @@ body{
     }
     .background {
         background-color:transparent;
+        margin-bottom:20px;
     }
     .registration{
         background-color:inherit;
@@ -361,12 +343,285 @@ body{
     }
     .registration p{
         color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        text-align: center;
+    }
+    .introduction{
+        margin-top:40px;
+       
+    }
+    .introduction h1{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .overview{
+        margin-top: 20px;
+    }
+    .overview p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color:white;
+    }
+    .programmes{
+        margin-top:25px;
+        display: flex;
+        flex: auto;
+        gap:80px;
+        height:200px;
+        align-items: center;
+        margin:80px;
+        justify-content: center;
+        
+    }
+    .first{
+         height:200px;
+        width:200px;
+        background-color:rgb(83, 219, 59);
+        
+    }
+    .second{
+        height:200px;
+        width:200px;
+        background-color:rgb(255, 0, 0);
+        
+    }
+    .third{
+         height:200px;
+        width:200px;
+        background-color:#ffff11;
+        
+    }
+    .fourth{
+        height:200px;
+        width:200px;
+        background-color:orange;
+        
+        
+    }
+     h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:white;
+        text-align:center;
+        margin-top:20px;
+    }
+    .programmes h3{
+        font-family:fantasy;
+        color:black;
+        text-align: center;
+    }
+   
+    .programmes p{
+        margin-top:20px;
+        font-family:fantasy;
+        color: black;
+        margin-left:5px;
+    }
+    .feedback h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        color:white;
+
+    }
+    .message p{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: large;
+       color: white;
+       text-align:center;
+       margin-top:15px;
     }
 
-    
-        
-    
-   
-    
 
+    .comments{
+     background-image:url(../../Downloads/form.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+    padding:10px;
+    margin-top:35px;
+    width: 50%;
+    border-radius:15px;
+    margin-left:350px;
+    margin-bottom:50px;
+    
+          
+    }
+    .comments label{
+    display: block;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+
+    }
+    .comments button{
+    background-color: black;
+    color: white;
+    margin-left:350px;
+    margin-top:5px;
+    border-radius:5px;
+    height:30px;
+    width:80px;
+    color:white;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .comments button:hover{
+     background: rgb(31, 202, 62);
+    color: black;
+    }
+   .carousel-container{
+    width:100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top:15px;
+   }
+
+   .carousel{
+    gap:25px;
+    display: flex;
+    padding:20px;
+   }
+   .slide{
+    flex:300px;
+    scroll-snap-align:start;
+   }
+   .slide img{
+    width:100%;
+    height:210px;
+    object-fit: cover;
+    border-radius:10px;
+   }
+   .slide p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color:white;
+    margin-top:15px;
+    text-align: center;
+   }
+   .slide button{
+    background-color: rgb(29, 252, 252);
+    color:black;
+    justify-content: left;
+    margin-top:5px;
+    border-radius:5px;
+    height:30px;
+    width:80px;
+    color:black;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   }
+   .slide button:hover{
+    background:black;
+    color:white;
+    }
+
+   .carousel-container::-webkit-scrollbar{
+    display:none;
+   }
+   .carousel-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+   }
+  .carousel-caption{
+    background-color: inherit;
+    border-radius:15px;
+  }
+  .carousel-pointers{
+    background-color:inherit;
+  }
+  .carousel-previous{
+    background-color: blue;
+    border-radius:50px;
+    padding:25px;
+    background-size:50px;
+  }
+ .carousel-item{
+    height:350px;
+    width:60%;
+    border-radius:20px;
+    position: relative;
+    
+ }
+ .carousel-item img{
+    height:300px;
+    width:50%;
+    object-fit: cover;
+    object-position:left;
+    border-radius:20px;
+ }
+
+ .carousel-caption{
+    left:auto;
+    right:0;
+    top:0;
+    bottom:auto;
+    transform: translateY(-50%);
+    background-color:inherit;
+    padding:15px;
+    border-radius:10px;
+    margin-left:150px;
+    margin-top:85px;
+    justify-content:right;
+    display: flex;
+    height:300px;
+    width:50%;
+ }
+
+ .carousel-caption p{
+    bottom:auto;
+    transform: translateY(-50%);
+    background-color:inherit;
+    padding-left:15px;
+    margin-left:90px;
+    justify-content:right;
+    margin-top:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    text-align: right;
+ }
  
+    
+ .carousel-caption h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: larger;
+    text-align: right;
+    margin-bottom:30px;
+    margin-left:50px;
+
+ }
+ 
+ 
+@media(max-width:768px){
+    .carousel-item{
+        height:275px;
+    }
+    .carousel-caption{
+        top:25%;
+    }
+    .carousel-caption h3{
+        font-size:small;
+    }
+    .carousel-caption p{
+        font-size: small;
+    }
+}
+.image-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    width:80%;
+    margin-top:50px;
+    min-width:800px;
+    margin-bottom:50px;
+}
+.image-grid img{
+    display: block;
+    width:100%;
+    height:400px;
+    margin-left:150px;
+    
+}
