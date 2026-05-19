@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact Us | Mega-minds Tuition Center</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../stylesheets/contact.css">
+  
 </head>
 <body>
   <header>
@@ -26,72 +31,96 @@
         <li><a href="feedback.html">Feedback</a></li>
       </ul>
     </header>
-    <div class="get in touch">
-      <h1>GET IN TOUCH WITH US</h1>
-    </div>
-
-      <div class="registration">
-        <p>Do you want to register your child?Fill in the form below to request a spot</p>
-      </div>
     
-      <form class="contact">
-         <form action="index.html">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"required><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"required><br><br>
-        <label for="Education level">Education level:</label><br>
-        <input type="text"id="Education level"name="Edlevelname"required><br>
-        <button type="request">Request</button>
-      </form>
-      <div  class="platform text">
-      <p>For more information reach out to us via the social media platforms below.</p>
-    </div>
+    <main class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="custom-card p-4 h-100">
+                        <h3>Student Registration</h3>
+                        <p class="text-muted">Fill in the form below to request a spot for your child.</p>
+                        <form action="../index.html" method="GET">
+                            <div class="mb-3">
+                                <label for="fname" class="form-label">First Name</label>
+                                <input type="text" class="form-control form-control-custom" id="fname" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lname" class="form-label">Last Name</label>
+                                <input type="text" class="form-control form-control-custom" id="lname" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="edu_level" class="form-label">Education Level</label>
+                                <select class="form-select form-control-custom" id="edu_level" required>
+                                    <option value="" selected disabled>Select Level</option>
+                                    <option>PSLE</option>
+                                    <option>JCE</option>
+                                    <option>BGCSE</option>
+                                    <option>A-LEVELS</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom w-100">Submit Request</button>
+                        </form>
+                    </div>
+                </div>
 
-      <div class="social-platforms">
-      <div class="socials">
-        <div class="socials-name">
-          <img src="../images/gmail icon.webp" alt="gmail" class="socials-logo">
-          <h3>G-mail</h3>
+                <div class="col-md-6">
+                    <h3>Contact Information</h3>
+                    <p>Reach out to us via any of these platforms:</p>
+                    
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="custom-card p-3 text-center">
+                                <img src="../images/gmail icon.webp" alt="Email" width="40" class="mb-2">
+                                <h6>Email</h6>
+                                <p class="small mb-0">megamindsbw@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="custom-card p-3 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#25D366" class="bi bi-whatsapp mb-2" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                                </svg>
+                                <h6>WhatsApp</h6>
+                                <p class="small mb-0">+267 75643210</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="custom-card p-3 text-center">
+                                <img src="../images/facebook logo.webp" alt="Facebook" width="40" class="mb-2">
+                                <h6>Facebook</h6>
+                                <p class="small mb-0">Mega-minds tuition bw</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="custom-card p-3 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4a148c" class="bi bi-telephone mb-2" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                </svg>
+                                <h6>Phone</h6>
+                                <p class="small mb-0">+267 53421985</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p>megamindsbw@gmail.com</p>
-      </div>
+    </main>
 
-       <div class="socials">
-        <div class="socials-name">
-          <img src="../images/whatsapp.webp" alt="whatsapp" class="socials-logo">
-          <h3>Whatsapp</h3>
+    <footer class="main-footer">
+        <div class="container text-center">
+            <div class="footer-info">
+                <h3>Mega-minds Tuition Center</h3>
+                <p>Empowering young minds for a brighter future.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mega-minds Tuition Center. All rights reserved.</p>
+            </div>
         </div>
-        <p>+267 75643210</p>
-      </div>
+    </footer>
 
-       <div class="socials">
-        <div class="socials-name">
-          <img src="../images/facebook logo.webp" alt="facebook" class="socials-logo">
-          <h3>Facebook</h3>
-        </div>
-        <p>Mega-minds tuition bw</p>
-      </div>
-
-       <div class="socials">
-        <div class="socials-name">
-          <img src="../images/contact.webp" alt="phone" class="socials-logo">
-          <h3>Phone number</h3>
-        </div>
-        <p>+26753421985</p>
-      </div>
-
-      </div>
-        
-    
-<footer>
-  <p>Mega-minds Tuition Center 2026</p>
-</footer>
-
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-       
-       
-            
-    
