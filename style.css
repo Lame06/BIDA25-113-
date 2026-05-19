@@ -237,7 +237,25 @@ body{
 }
 @media(min-width:1200px){
     h1{
-        font-size: large;
+        font-size: larger;
+    }
+}
+@media(min-width:768px){
+    image{
+        max-width:auto;
+        margin:0;
+    }
+}
+@media(min-width:768px){
+    .navbar{
+        display:flex;
+        width: auto;
+        
+    }
+    .navbar a{
+        display: flex;
+        gap:3em;
+
     }
 }
 
