@@ -237,24 +237,42 @@ body{
 }
 @media(min-width:1200px){
     h1{
-        font-size: larger;
+        font-size:x-large;
     }
 }
+
+
 @media(min-width:768px){
     image{
         max-width:auto;
         margin:0;
     }
 }
-@media(min-width:768px){
+
+@media(max-width:992px){
     .navbar{
-        display:flex;
+        display:block;
         width: auto;
+        padding:1em;
+        position: relative;
         
     }
     .navbar a{
-        display: flex;
-        gap:3em;
+        display:block;
+        gap:1.5em;
+
+    }
+}
+@media(max-width:768px){
+    .navbar{
+        display:block;
+        width: auto;
+        position: relative;
+        
+    }
+    .navbar a{
+        display:block;
+        gap:1em;
 
     }
 }
