@@ -265,13 +265,13 @@ body{
 }
 @media(max-width:768px){
     .navbar{
-        display:block;
+        display:flex;
         width:50%;
         position: relative;
         
     }
     .navbar a{
-        display:block;
+        display:flex;
         gap:1em;
 
     }
