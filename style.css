@@ -251,22 +251,22 @@ body{
 
 @media(max-width:992px){
     .navbar{
-        display:block;
+        display:flex;
         width: auto;
         padding:1em;
-        position: relative;
+        position:relative;
         
     }
     .navbar a{
         display:block;
-        gap:1.5em;
+        gap:1em;
 
     }
 }
 @media(max-width:768px){
     .navbar{
         display:block;
-        width: auto;
+        width:50%;
         position: relative;
         
     }
